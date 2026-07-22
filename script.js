@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // SCROLL REVEAL
   // =============================================
   const revealTargets = document.querySelectorAll(
-    '.skill-card, .project, .also-card, .about-lead, .stat-strip'
+    '.skill-card, .project, .also-card, .about-lead'
   );
   revealTargets.forEach(el => el.classList.add('reveal'));
 

@@ -305,56 +305,6 @@ a { color: inherit; }
 }
 
 /* =============================================
-   STAT STRIP
-   ============================================= */
-.stat-strip {
-  max-width: 900px;
-  margin: 3rem auto 0.75rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.stat { display: flex; flex-direction: column; gap: 0.25rem; }
-
-.stat-num {
-  font-family: var(--font-mono);
-  font-size: clamp(1.6rem, 4vw, 2.4rem);
-  font-weight: 700;
-  color: var(--color-accent-dark);
-}
-
-.stat-label {
-  font-size: 0.8rem;
-  color: var(--color-muted);
-  max-width: 160px;
-}
-
-.stat-divider {
-  width: 1px;
-  height: 40px;
-  background: var(--color-border);
-}
-
-@media (max-width: 768px) {
-  .stat-divider { display: none; }
-  .stat-strip { gap: 1.5rem 2.5rem; }
-}
-
-.stat-caption {
-  text-align: center;
-  font-size: 0.85rem;
-  color: var(--color-muted);
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.stat-caption a { color: var(--color-accent-dark); font-weight: 600; text-decoration: underline; }
-
-/* =============================================
    SECTION HEADERS
    ============================================= */
 .section-eyebrow {
