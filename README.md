@@ -3,7 +3,7 @@
 My personal portfolio site, focused on GTM, product, and AI-powered automation work (n8n, LLM
 orchestration, growth tooling), with Flutter and Spring Boot projects folded in as supporting range.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 portfolio_v2/
@@ -13,13 +13,13 @@ portfolio_v2/
 └── script.js       # JavaScript functionality
 ```
 
-## 🛠️ Built With
+## Built With
 
 - HTML5
 - CSS3
 - JavaScript (vanilla, no framework)
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository
 ```bash
@@ -32,9 +32,9 @@ cd portfolio_v2
 python -m http.server 8000
 ```
 
-## 📝 Sections
+## Sections
 
-- **Hero** — headline, GTM/automation stat strip (real numbers from HireFlow.ai)
+- **Hero** — headline and tagline
 - **About** — who I am and what I'm looking for
 - **Stack** — automation, AI/LLM, GTM tooling, plus full-stack range
 - **Work** — featured n8n/GTM automation projects, and a compact "Also Built" grid of Flutter/Spring Boot apps
