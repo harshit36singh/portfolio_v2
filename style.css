@@ -234,6 +234,28 @@ a { color: inherit; }
   overflow: visible;
 }
 
+.badge-stack {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.sticker {
+  position: absolute;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 8px 16px;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(28, 21, 13, 0.15);
+  border: 1px solid rgba(28, 21, 13, 0.08);
+}
+
+.sticker-1 { top: 8%; left: 6%; background: var(--color-accent); color: #fff8ee; transform: rotate(-9deg); }
+.sticker-2 { top: 62%; left: 3%; background: var(--color-yellow); color: #1c150d; transform: rotate(7deg); }
+.sticker-3 { top: 10%; right: 5%; background: #1c150d; color: #fbf4e3; transform: rotate(8deg); }
+.sticker-4 { top: 64%; right: 4%; background: var(--color-surface); color: var(--color-accent-dark); border-color: var(--color-accent-light); transform: rotate(-6deg); }
+
 .eyebrow {
   font-family: var(--font-mono);
   font-size: 0.85rem;
@@ -268,6 +290,7 @@ a { color: inherit; }
 @media (max-width: 768px) {
   .hero { padding: 100px 1rem 40px; }
   .hero-body { padding: 3rem 1.25rem 2.5rem; }
+  .sticker { display: none; }
 }
 
 /* =============================================
